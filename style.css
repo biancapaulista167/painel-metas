@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;            /* Define a fonte principal da página */
+    background: #f5f5f5;           /* Cor de fundo cinza clara */
+    text-align: center;            /* Centraliza todo o conteúdo de texto */
+    padding: 20px;                 /* Dá espaço interno nas bordas da página */
+}
+
+form {
+    padding: 20px;                 /* Espaçamento interno do formulário */
+    width: 90%;                    /* O formulário ocupa até 90% da largura disponível */
+    max-width: 400px;              /* Limita o tamanho para não ficar muito grande */
+    margin: auto;                  /* Centraliza o formulário no meio da tela */
+    border-radius: 8px;            /* Arredonda os cantos do formulário */
+}
+
+input, textarea, select {
+    width: 100%;                   /* Os campos ocupam toda a largura do formulário */
+    margin-top: 5px;               /* Espaço entre o texto e o campo */
+}
+
+button {
+    width: 100%;                   /* Botão ocupa toda a largura */
+    margin-top: 15px;              /* Espaço acima do botão */
+    cursor: pointer;               /* Muda o cursor para “mãozinha” ao passar o mouse */
+    transition: 0.3s;              /* Suaviza os efeitos de hover */
+    padding: 10px 20px;            /* Aumenta o tamanho interno do botão */
+    font-size: 16px;               /* Tamanho da fonte dentro do botão */
+    border: none;                  /* Remove bordas padrão do botão */
+    border-radius: 8px;            /* Deixa os cantos arredondados */
+    background: #00c71b;           /* Cor de fundo verde do botão */
+    color: white;                  /* Cor do texto do botão */
+    cursor: pointer;               /* Confirma o cursor em forma de mão */
+}
+
+footer{
+    margin-top: 20px;              /* Espaço acima do rodapé */
+    font-size: 14px;               /* Tamanho da fonte do rodapé */
+    color: #555;                   /* Cor cinza escuro do texto */
+}

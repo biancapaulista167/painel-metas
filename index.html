@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<!-- Indica que o documento está usando HTML5 -->
+
+<html lang="pt-BR"> 
+<!-- Define que o idioma da página é português do Brasil -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- Garante que os caracteres acentuados funcionem corretamente -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Torna o site responsivo para celulares -->
+
+    <title>Painel de Metas Diárias</title>
+    <!-- Título que aparece na aba do navegador -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Importa o arquivo CSS externo -->
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Painel de Metas Diárias</h1>
+
+    <!-- Formulário onde o usuário adiciona uma nova meta -->
+    <form id="metaForm">
+
+        <!-- Campo de texto para inserir o título da meta -->
+        <label>Título:</label>
+        <input id="titulo">
+
+        <!-- Campo para escrever uma descrição detalhada da meta -->
+        <label>Descrição:</label>
+        <textarea id="descricao"></textarea>
+
+        <!-- Menu de seleção para escolher a prioridade da meta -->
+        <label>Prioridade:</label>
+        <select id="prioridade">
+            <option>Baixa</option>
+            <option>Média</option>
+            <option>Alta</option>
+        </select>
+
+        <!-- Campo para selecionar a data da meta -->
+        <label>Data:</label>
+        <input type="date" id="data">
+
+        <!-- Botão que envia o formulário e adiciona a meta -->
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <!-- Rodapé com nome e data -->
+    <footer>
+        Bianca - Data:14/11/25
+    </footer>
+
+    <!-- Arquivo JavaScript que vai controlar o funcionamento das metas -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
